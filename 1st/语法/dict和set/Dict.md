@@ -115,7 +115,7 @@ del dict1
 
 ```python
 #-*-coding:utf-8-*-
-dict1={'liangdianshui':'111111' ,'twowater':'222222' ,'两点水':'333333','twowater':'444444'}
+dict1={'liangdianshui':'111111','twowater':'222222' ,'两点水':'333333','twowater':'444444'}
 print(dict1)
 print(dict1['twowater'])
 ```
