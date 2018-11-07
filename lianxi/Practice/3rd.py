@@ -18,3 +18,4 @@ print(l[0])
 print(name[2])
 print(NN.count('王五'))
 print(L.count(5))
+

@@ -5,7 +5,7 @@ print("猜数字游戏")
 temp=input("不妨猜猜我心中的数字：")
 guess=int(temp)
 while guess!=secret:
-    temp=input('哎呀，猜错了，请重新输入：')4
+    temp=input('哎呀，猜错了，请重新输入：')
     guess=int(temp)
     if guess==secret:
         print('猜对了')
