@@ -16,7 +16,7 @@ class Turtle:
         print("咬死你，要死你")
 
     def eat(self):
-        print("youzhiyouhe")
+        print("有吃有喝")
 
     def sleep(self):
         print("还可以睡觉")
