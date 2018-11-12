@@ -1,3 +1,5 @@
+import timer
+
 def jiecheng(m,n):
     re=0
     for i in range(m,n+1):
