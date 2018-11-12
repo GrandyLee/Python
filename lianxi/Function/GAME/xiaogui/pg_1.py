@@ -17,7 +17,7 @@ screen = pygame.display.set_mode(size)
 pygame.display.set_caption("初次见面，请大家多多关照！")
 
 #加载图片
-turtle=pygame.image.load("ETO.png")
+turtle = pygame.image.load( 'G:\\Grandy\\Python\\lianxi\\Function\GAME\\xiaogui\\turtle.png')
 
 #获取图片位置
 position=turtle.get_rect()
@@ -30,13 +30,13 @@ while True:
     #移动图像
     position = position.move(speed)
 
-    if position.left<0 or position.rignt>width:
+    if position.left<0 or position.right>width:
         #移动图像
         turtle = pygame.transform.flip(turtle,True,False)
         #反向移动
         speed[0]=-speed[0]
 
-    if position.top<0 or position.botton>height:
+    if position.top<0 or position.bottom>height:
         speed[1]=-speed[1]
 
     # 填充背景
@@ -47,5 +47,5 @@ while True:
     # 更新界面
     pygame.display.flip()
     #延迟10毫秒
-    pygame.time.delay()
+    pygame.time.delay(10)
     #界10面
